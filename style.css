@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	font-family: 'Allura', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #a9a9a9;
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.main_container{
+	position: relative;
+}
+
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    background:white;
+}
+
+.logo a{
+	font-family: 'Allura', cursive;
+	font-size: 38px;
+	color: #102f3f
+}
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #102f3f;
+}
+
+/* gato_cachorro imagen */
+.gato_cachorro{
+	background: url('images/catdoglocalizagod\ copy.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* selectors and box */
+.box{
+    width: 50%;
+    height: 450px;
+    border: 3px solid #f8c291;
+    margin: auto;
+    padding: 30px;
+    background: #102f3f;
+
+}
+
+
+
+.box select{
+    background: #f8c291;
+    font-size: 20px;
+    color: #102f3f;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(0,0,0,.5);
+    outline: none;
+}
+
+select{
+    margin: 8px;
+}
+
+ .form-control{
+    background: #f8c291;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 46%;
+    height: 43px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(0,0,0,.5);
+    outline: none;
+    position: relative;
+    right: 12px;
+}
+
+.btn2{
+    background: #3dc1d3;
+    font-size: 20px;
+    color: white;
+    width: 160px;
+    height: 52px;
+    border: none;
+    box-shadow: 0 5px 25px rgb(0,0,0,.5);
+    outline: none;
+}
+
+.btn2{
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+}
+
+.selectors{
+    text-align: center;
+  
+}
+
+
+/* About */
+.sobrenos,
+.servicos,
+.adote{
+	text-align: center;
+	padding: 5% 10%;
+}
+
+/* Services */
+.servicos{
+	background: #f5f5f5;
+}
+
+.diff_services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff_services .diff_services_item {
+    width: 45%;
+}
+
+.diff_services_item1{
+    text-align: center;
+}
+
+.diff_services .diff_services_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_services .diff_services_item h3 {
+    color: #fb2274;
+    margin-bottom: 15px;
+}
+
+/* Contact us */
+.form_wrapper .form_input{
+	margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type="text"]{
+	width: 250px;
+	padding: 12px 20px; 
+	border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input textarea{
+	width: 250px;
+	padding: 12px 20px; 
+	height: 80px;
+	resize: none;
+	border: 1px solid  #ccc;
+}
+/* our team */
+.ourteam{
+	background: #f5f5f5;
+}
+
+.ourteam_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background: #041f2c;
+    display: block;
+}
+
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+   
+}
+
+h1{
+    padding: 10px 0;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-items p{
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: lighter; 
+    text-transform: uppercase;
+}
+
+.border{
+    height: 2px;
+    width: 40px;
+    background: #f8c291;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    padding: 5px;
+    
+    
+
+}
+
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+  
+}
+
+ul a:hover {
+    color: #f8c291;
+}
+
+ul li{
+    margin: 10px 0;
+    height: 25px;
+    
+}
+
+li i{
+    margin-right: 20px;
+}
+
+.social-media{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    
+}
+
+.social-media i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+.footer-bottom{
+    padding: 10px;
+    background: #3d545f;
+    color: white;
+    font-size: 12px;
+}
+
+
+/* footer */
+
+@media screen and (max-width:1085px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer-items {
+        width: 10 0%;
+    }
+}
+
+/* top navbar, logo, titulo */ 
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.titulo_meio{
+		margin-top: 35px;
+	}
+
+}
